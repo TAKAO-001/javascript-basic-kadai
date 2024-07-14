@@ -1,5 +1,4 @@
-const square=(input)=>{
-    console.log(input**2);
+const square=(num)=>{
+   return num ** 2;
 }
-
-square(10);
+console.log(square(10));
